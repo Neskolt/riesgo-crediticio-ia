@@ -236,7 +236,7 @@ with st.form("credit_risk_form"):
         "¿Cuál es la situación de pago más reciente?",
         key="pay_0",
         default_value=REFERENCE_VALUES["PAY_0"],
-        help=(
+        help_text=(
             "Es la variable con mayor importancia global en el árbol entrenado."
         ),
     )
